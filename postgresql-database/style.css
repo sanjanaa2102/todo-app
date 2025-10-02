@@ -1,0 +1,76 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #98A1BC;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.app {
+  width: 100%;
+  max-width: 500px;
+  background: #555879;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+}
+
+.task-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  padding: 10px 15px;
+  background: #DED3C4;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: rgb(14, 12, 12);
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task {
+  background: #000000;
+  margin-bottom: 12px;
+  padding: 12px 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task span {
+  flex-grow: 1;
+}
+
+.actions button {
+  margin-left: 8px;
+  background: #e94d4d;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+.actions .edit {
+  background: #8d969fbb;
+}
